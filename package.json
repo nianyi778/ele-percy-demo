@@ -1,0 +1,14 @@
+{
+  "name": "ele-percy-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "e2e:visual": "percy exec -- playwright test"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.32.11",
+    "@percy/playwright": "^1.1.2",
+    "@playwright/test": "^1.60.0"
+  }
+}
